@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#0a2a49" />
+    <link rel="icon" href="data:," />
+    <title>Real Photos · HiGo Travel</title>
+    <meta name="description" content="HiGo Travel, Da Nang, Vietnam. Real trips, real photos: Ba Na Hills and the Golden Bridge, Hoi An lanterns, Lady Buddha, My Khe Beach. Christmas Promo Buy 1 Take 1, $250 for 2 people, 3 days and 2 nights (regular $280). Family deal $450 for 4. Book on WhatsApp." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  
+  </head>
+  <body data-page="gallery">
+<header class="appbar">
+      <div class="in">
+        <img class="logo" data-img="logo" width="48" height="40" alt="HiGo Travel logo" />
+        <div class="brand"><strong>HiGo Travel</strong><span id="brandPlace">Da Nang, Vietnam</span></div>
+        <nav class="toplinks" aria-label="Pages">
+          <button type="button" data-goto="home">Home</button>
+          <button type="button" data-goto="deals">Deals</button>
+          <button type="button" data-goto="tour">Tour</button>
+          <button type="button" data-goto="gallery">Photos</button>
+          <button type="button" data-goto="reviews">Reviews</button>
+        </nav>
+        <div class="lang" id="langWrap">
+          <button class="lang-btn" id="langBtn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="langMenu" aria-label="Language">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9S9.4 5.7 12 3z"/></svg>
+            <span id="langCode">EN</span>
+            <svg class="chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" id="langMenu" role="listbox" aria-label="Language" hidden>
+            <button type="button" role="option" data-lang="en" aria-selected="true"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg>EN · English</button>
+            <button type="button" role="option" data-lang="tl" aria-selected="false"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg>TL · Tagalog</button>
+            <button type="button" role="option" data-lang="es" aria-selected="false"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg>ES · Español</button>
+            <button type="button" role="option" data-lang="vi" aria-selected="false"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg>VI · Tiếng Việt</button>
+            <button type="button" role="option" data-lang="zh" aria-selected="false"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg>中文 · Chinese</button>
+            <button type="button" role="option" data-lang="ko" aria-selected="false"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5 10 18 19.5 6.5"/></svg>한국어 · Korean</button>
+          </div>
+        </div>
+        <button class="btn btn-red topbook" type="button" data-goto="book" data-i18n="heroCta">Pick a date &amp; book</button>
+      </div>
+    </header>
+    <main>
+<section class="band band-wash" id="gallery" data-page="gallery" aria-label="Real trip photos">
+        <div class="wrap">
+          <div class="sec-head rv">
+            <p class="kicker teal">Real Photos · Real Guests</p>
+            <h2>From our trips</h2>
+            <p class="lead">Tap any photo to see it big. Filter by place to find the part of the trip you are dreaming about.</p>
+          </div>
+          <div class="gchips rv" role="group" aria-label="Filter photos by place" id="gchips">
+            <button class="gchip" type="button" data-filter="all" aria-pressed="true">All photos</button>
+            <button class="gchip" type="button" data-filter="airport" aria-pressed="false">Airport welcome</button>
+            <button class="gchip" type="button" data-filter="bana" aria-pressed="false">Ba Na Hills</button>
+            <button class="gchip" type="button" data-filter="french" aria-pressed="false">French Village</button>
+            <button class="gchip" type="button" data-filter="hoian" aria-pressed="false">Hoi An</button>
+            <button class="gchip" type="button" data-filter="temples" aria-pressed="false">Lady Buddha &amp; temples</button>
+            <button class="gchip" type="button" data-filter="beach" aria-pressed="false">Beach &amp; coast</button>
+            <button class="gchip" type="button" data-filter="boats" aria-pressed="false">Boats</button>
+            <button class="gchip" type="button" data-filter="food" aria-pressed="false">Food</button>
+            <button class="gchip" type="button" data-filter="guests" aria-pressed="false">Happy guests</button>
+            <button class="gchip" type="button" data-filter="posters" aria-pressed="false">Posters</button>
+          </div>
+          <div class="grid" id="grid">
+            <button class="gitem" type="button" data-cat="bana" data-cap="Golden Bridge crew" data-sub="Ba Na Hills · Golden Bridge"><img src="assets/photos/4e5222cb-923d-4e86-894b-812ccd883646.jpg" alt="HiGo guests jumping for a photo on the Golden Bridge" loading="lazy" /><figcaption><b>Golden Bridge crew</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="airport" data-cap="Welcome to Da Nang" data-sub="Da Nang Airport · Arrivals"><img src="assets/photos/0c489f4d-bfa4-4847-be39-1b1d592f37f7.jpg" alt="Guest with her suitcase under the Welcome to Da Nang sign" loading="lazy" /><figcaption><b>Welcome to Da Nang</b><span>Airport arrivals</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Lantern shop colours" data-sub="Hoi An · Old Town"><img src="assets/photos/83ccefe5-2ef1-4b3b-a59e-96b54fb25670.jpg" alt="Two guests smiling in a colourful Hoi An lantern shop" loading="lazy" /><figcaption><b>Lantern shop colours</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="temples" data-cap="Lady Buddha" data-sub="Linh Ung Pagoda · Son Tra"><img src="assets/photos/55afed3d-5118-4df4-8bbf-b963ba5a592e.jpg" alt="Guest with arms wide in front of the Lady Buddha statue" loading="lazy" /><figcaption><b>Lady Buddha</b><span>Linh Ung Pagoda</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="Castle in the fog" data-sub="Ba Na Hills · French Village"><img src="assets/photos/054d1c60-3d9c-49f7-b783-74788beed342.jpg" alt="Guest in front of the misty French Village castle" loading="lazy" /><figcaption><b>Castle in the fog</b><span>French Village</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="bana" data-cap="Solo at the stone head" data-sub="Ba Na Hills · Stone statue"><img src="assets/photos/c78eda6b-0ab7-4bba-84b2-c6be6a3d0dcb.jpg" alt="Guest in a green jacket in front of the giant stone head statue at Ba Na Hills" loading="lazy" /><figcaption><b>Solo at the stone head</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="bana" data-cap="Family at the Sun World gate" data-sub="Ba Na Hills · Entrance"><img src="assets/photos/e5cee6d7-f5e4-457f-aa31-574dc6cdeed7.jpg" alt="Family posing together in front of the Sun World Ba Na Hills entrance gate" loading="lazy" /><figcaption><b>Family at the Sun World gate</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="boats" data-cap="Basket boat ride" data-sub="Coconut palm canals · Hoi An"><img src="assets/photos/9b4f6180-fc5e-45ba-b0ad-c002b6245515.jpg" alt="Guest pointing and laughing in a round basket boat" loading="lazy" /><figcaption><b>Basket boat ride</b><span>Palm canals</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Ao dai among the lanterns" data-sub="Hoi An · Old Town"><img src="assets/photos/aed1a8e4-fbd2-48c3-b296-ff39442e8c2b.jpg" alt="Guest in a red ao dai in front of a wall of silk lanterns" loading="lazy" /><figcaption><b>Ao dai among the lanterns</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="beach" data-cap="My Khe Beach stroll" data-sub="My Khe Beach · Da Nang"><img src="assets/photos/9941a29f-d9af-4658-be3a-9e257e54c3e7.jpg" alt="Guest walking the promenade at My Khe Beach" loading="lazy" /><figcaption><b>My Khe Beach stroll</b><span>Da Nang coast</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="food" data-cap="Banh Mi Phuong" data-sub="Hoi An · The famous stall"><img src="assets/photos/8fee0415-568c-42ff-a272-83609e370c47.jpg" alt="Guest giving a thumbs up at Banh Mi Phuong" loading="lazy" /><figcaption><b>Banh Mi Phuong</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="guests" data-cap="The whole crew" data-sub="On tour · Da Nang"><img src="assets/photos/0a321da0-2222-4e3b-b226-cdd421bf5fed.jpg" alt="A big happy guest group posing under a bamboo arch" loading="lazy" /><figcaption><b>The whole crew</b><span>Happy guests</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="bana" data-cap="Bridge in the clouds" data-sub="Ba Na Hills · Golden Bridge"><img src="assets/photos/a047f268-aa13-4e26-b80f-edc1a90e14fb.jpg" alt="Guest walking the Golden Bridge through the mist" loading="lazy" /><figcaption><b>Bridge in the clouds</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="French Village church" data-sub="Ba Na Hills · French Village"><img src="assets/photos/43d3eee3-f3dc-4869-9351-2e5a46856dc8.jpg" alt="Guest on the steps of the stone church in French Village" loading="lazy" /><figcaption><b>French Village church</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="Down the church steps" data-sub="Ba Na Hills · French Village"><img src="assets/photos/e2d91f2d-6c51-4da6-a4a5-75f00d3eca6e.jpg" alt="Guest walking down the steps of the French Village church" loading="lazy" /><figcaption><b>Down the church steps</b><span>French Village</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="Family at the castle" data-sub="Ba Na Hills · French Village"><img src="assets/photos/9d278c0e-64c9-450d-9630-3418f28e1b17.jpg" alt="Family selfie in front of the French Village castle and flower gardens" loading="lazy" /><figcaption><b>Family at the castle</b><span>French Village</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Yellow wall, red ao dai" data-sub="Hoi An · Old Town alley"><img src="assets/photos/3b774340-4bfd-408c-8014-7c7329ca42a7.jpg" alt="Guest in a red ao dai between Hoi An's yellow walls" loading="lazy" /><figcaption><b>Yellow wall, red ao dai</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="boats" data-cap="Lantern boat at night" data-sub="Thu Bon River · Hoi An"><img src="assets/photos/ecb09ab7-03fa-4246-9146-c20023bd79d9.jpg" alt="Guest on a night boat ride beside a glowing yellow lantern" loading="lazy" /><figcaption><b>Lantern boat at night</b><span>Hoi An river</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="temples" data-cap="Seated Buddha" data-sub="Temple gardens · Da Nang"><img src="assets/photos/3c57f6b5-16b6-45ed-b946-042001b8c7e8.jpg" alt="Guest sitting on steps below a large white Buddha statue" loading="lazy" /><figcaption><b>Seated Buddha</b><span>Temple gardens</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="airport" data-cap="Family arrival" data-sub="Da Nang Airport"><img src="assets/photos/83205337-20a1-4f13-a221-b556987b663d.jpg" alt="A family taking a selfie inside Da Nang airport" loading="lazy" /><figcaption><b>Family arrival</b><span>Airport</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Above the old town" data-sub="Hoi An · Rooftop view"><img src="assets/photos/94b3f1d5-bcb1-42a8-a841-5ee3f6d366a5.jpg" alt="Guest in a red ao dai on a rooftop over Hoi An old town" loading="lazy" /><figcaption><b>Above the old town</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="Castle viewpoint" data-sub="Ba Na Hills · French Village"><img src="assets/photos/834bd3de-eef2-499d-af01-7a01a50d3c22.jpg" alt="Guest in a red jacket looking out at the French Village castle" loading="lazy" /><figcaption><b>Castle viewpoint</b><span>French Village</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="guests" data-cap="Jump for it" data-sub="Ba Na Hills · Guest group"><img src="assets/photos/be4b990c-ba32-4b7b-9f28-72a70451a1cf.jpg" alt="Guest group jumping in front of the giant stone head at Ba Na Hills" loading="lazy" /><figcaption><b>Jump for it</b><span>Happy guests</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="beach" data-cap="Coast road walk" data-sub="Da Nang coastline"><img src="assets/photos/2d12826a-c106-4dfc-b3d3-3b702bb993db.jpg" alt="Guest walking the seaside road in Da Nang" loading="lazy" /><figcaption><b>Coast road walk</b><span>Da Nang</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="temples" data-cap="Linh Ung temple hall" data-sub="Linh Ung Pagoda"><img src="assets/photos/37d8b7ea-7fc8-4c2d-ace7-5b87f7abfb7e.jpg" alt="Guest on the wide steps of the Linh Ung temple hall" loading="lazy" /><figcaption><b>Linh Ung temple hall</b><span>Son Tra</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="From Hoi An, with love" data-sub="Hoi An · Old Town"><img src="assets/photos/778f19ca-29c6-4d06-9432-998fedfe5386.jpg" alt="Guest smiling at the From Hoi An With Love sign" loading="lazy" /><figcaption><b>From Hoi An, with love</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="bana" data-cap="Sun World gate" data-sub="Ba Na Hills · Entrance"><img src="assets/photos/2e960558-ffed-4834-ac1c-7811929c2cfa.jpg" alt="Guest in front of the ornate Sun World Ba Na Hills gate" loading="lazy" /><figcaption><b>Sun World gate</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="food" data-cap="A proper local table" data-sub="Vietnamese food · On tour"><img src="assets/photos/20cad22a-c8e3-497b-a302-b8cc65eca598.jpg" alt="Family sharing Vietnamese dishes at a restaurant table" loading="lazy" /><figcaption><b>A proper local table</b><span>Food stops</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="guests" data-cap="Incense village colours" data-sub="On tour · Craft village"><img src="assets/photos/475ee952-7b82-4f84-a6bf-6c5445041250.jpg" alt="Guest holding colourful incense sticks in front of a wall of red incense bundles at a traditional craft village" loading="lazy" /><figcaption><b>Incense village colours</b><span>Happy guests</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="Autumn in the village" data-sub="Ba Na Hills · French Village"><img src="assets/photos/31f7861a-dc50-4a59-bd21-23de31c6ab13.jpg" alt="Guest relaxing on a bench under red autumn leaves in French Village" loading="lazy" /><figcaption><b>Autumn in the village</b><span>French Village</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="temples" data-cap="Family at Lady Buddha" data-sub="Linh Ung Pagoda"><img src="assets/photos/ee592a15-8c56-46aa-85d0-0d23ccd4888e.jpg" alt="Family selfie with a white Buddha statue behind them" loading="lazy" /><figcaption><b>Family at Lady Buddha</b><span>Linh Ung</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Lantern wall seat" data-sub="Hoi An · Old Town"><img src="assets/photos/9716dea6-ff2f-40e7-a682-2005e108a762.jpg" alt="Guest sitting under hanging lanterns against a yellow wall" loading="lazy" /><figcaption><b>Lantern wall seat</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="guests" data-cap="Beach day smiles" data-sub="Da Nang coast · Guests"><img src="assets/photos/698fcd20-e416-4886-a083-a37620ab25d1.jpg" alt="Family taking a selfie by the sea in Da Nang" loading="lazy" /><figcaption><b>Beach day smiles</b><span>Happy guests</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="beach" data-cap="Bay viewpoint" data-sub="Son Tra · Da Nang bay"><img src="assets/photos/7167b77e-cd7c-44c4-81d5-0899b1495448.jpg" alt="Guest looking out over Da Nang bay from Son Tra" loading="lazy" /><figcaption><b>Bay viewpoint</b><span>Son Tra</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="bana" data-cap="Golden Bridge selfie" data-sub="Ba Na Hills · Golden Bridge"><img src="assets/photos/448f2fc8-4e92-4734-8a81-3f94cd6d8b05.jpg" alt="Family selfie with the Golden Bridge hands behind them" loading="lazy" /><figcaption><b>Golden Bridge selfie</b><span>Ba Na Hills</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Temple door ao dai" data-sub="Hoi An · Old Town"><img src="assets/photos/935b5823-4b6c-4bc1-8bbb-dfc31a7c47c0.jpg" alt="Guest in a red ao dai at an old temple doorway" loading="lazy" /><figcaption><b>Temple door ao dai</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="french" data-cap="Cobbled street pause" data-sub="Ba Na Hills · French Village"><img src="assets/photos/f444bbc1-3641-442a-ae9a-ce1577fe1d30.jpg" alt="Guest sitting on a bench on a French Village street" loading="lazy" /><figcaption><b>Cobbled street pause</b><span>French Village</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="temples" data-cap="Pagoda tower" data-sub="Linh Ung Pagoda"><img src="assets/photos/1d72e7fe-3a18-4c37-b81a-dbd5e1dac2ba.jpg" alt="Guest standing in the Linh Ung pagoda courtyard" loading="lazy" /><figcaption><b>Pagoda tower</b><span>Linh Ung</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="guests" data-cap="Night out together" data-sub="Da Nang · Evening"><img src="assets/photos/5376a919-1e26-4118-9096-278fbd441052.jpg" alt="Family selfie on a lively Da Nang street at night" loading="lazy" /><figcaption><b>Night out together</b><span>Happy guests</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="hoian" data-cap="Flags overhead" data-sub="Hoi An · Market street"><img src="assets/photos/e0c85e42-9c20-43de-a8a9-daf87cf183d4.jpg" alt="Guest walking under rows of red flags in Hoi An" loading="lazy" /><figcaption><b>Flags overhead</b><span>Hoi An</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="airport" data-cap="Ready to explore" data-sub="Da Nang Airport · Arrivals"><img src="assets/photos/bc3b0f6e-1601-4554-9da7-6f1ccd58e814.jpg" alt="Guest with his luggage trolley under the Welcome to Da Nang sign" loading="lazy" /><figcaption><b>Ready to explore</b><span>Airport arrivals</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="beach" data-cap="Seaside selfie" data-sub="Da Nang coast road"><img src="assets/photos/a7609315-468e-4cd3-a707-589c84c7bfed.jpg" alt="Couple taking a selfie on the Da Nang coast road" loading="lazy" /><figcaption><b>Seaside selfie</b><span>Da Nang coast</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="guests" data-cap="Viewpoint family" data-sub="On tour · Da Nang"><img src="assets/photos/a6b959d0-40db-4abf-826c-15ab23c907e6.jpg" alt="Family enjoying a green mountain viewpoint" loading="lazy" /><figcaption><b>Viewpoint family</b><span>Happy guests</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="bana" data-cap="Group at the stone head" data-sub="Ba Na Hills · Stone statue"><img src="assets/photos/00120315-9243-48b3-b4b2-15d125969a5a.jpg" alt="Group at the stone head" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="guests" data-cap="Group day out" data-sub="On tour · Da Nang"><img src="assets/photos/0acdca70-3c55-4964-a132-f9c9b8a7f361.jpg" alt="Group day out" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="french" data-cap="Blue street in the French Village" data-sub="Ba Na Hills · French Village"><img src="assets/photos/23515cfd-9ad0-4d09-bc6a-04430be8b6ac.jpg" alt="Blue street in the French Village" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="airport" data-cap="Arrivals at Da Nang Airport" data-sub="Da Nang Airport · Arrivals"><img src="assets/photos/23845cc7-5edb-404e-8f38-7c887e2dbc9c.jpg" alt="Arrivals at Da Nang Airport" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="french" data-cap="French Village street" data-sub="Ba Na Hills · French Village"><img src="assets/photos/255b683a-c5fd-48c0-8981-7ebbf83eb2e5.jpg" alt="French Village street" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="guests" data-cap="Stone arch on tour" data-sub="On tour · Da Nang"><img src="assets/photos/35491cdc-bd91-4080-9f6d-2689cecb3f38.jpg" alt="Stone arch on tour" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="airport" data-cap="Welcome sign at arrivals" data-sub="Da Nang Airport · Arrivals"><img src="assets/photos/39da59db-e127-446e-a22d-62391d1c134e.jpg" alt="Welcome sign at arrivals" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="beach" data-cap="Lady Buddha in the distance" data-sub="Son Tra · Da Nang bay"><img src="assets/photos/466f525c-5e55-4bc0-a02e-4b5045b51581.jpg" alt="Lady Buddha in the distance" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="airport" data-cap="Welcome to Da Nang" data-sub="Da Nang Airport · Arrivals"><img src="assets/photos/54c5003d-3c32-409f-86d9-0544b47377b2.jpg" alt="Welcome to Da Nang" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="bana" data-cap="Group at the stone head" data-sub="Ba Na Hills · Stone statue"><img src="assets/photos/5f1a46c0-d881-4cd6-8ac6-899dfb130f9f.jpg" alt="Group at the stone head" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="airport" data-cap="Arrivals with the welcome sign" data-sub="Da Nang Airport · Arrivals"><img src="assets/photos/798c4a8c-ff43-4f12-b68b-be8ca3cbabcc.jpg" alt="Arrivals with the welcome sign" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="bana" data-cap="Group at the stone head" data-sub="Ba Na Hills · Stone statue"><img src="assets/photos/9b55b1bf-18de-4a91-b4fb-4e2a2236d496.jpg" alt="Group at the stone head" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="french" data-cap="French Village castle in the mist" data-sub="Ba Na Hills · French Village"><img src="assets/photos/b78ca214-d8ff-49d3-9c59-a35c1b0700b4.jpg" alt="French Village castle in the mist" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="guests" data-cap="Family selfie on tour" data-sub="On tour · Da Nang"><img src="assets/photos/d17e37c8-d240-471a-9d79-cc53416ca488.jpg" alt="Family selfie on tour" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="bana" data-cap="At the stone head" data-sub="Ba Na Hills · Stone statue"><img src="assets/photos/db0af8a9-2b2a-4390-b1cd-d820c4f831a9.jpg" alt="At the stone head" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="bana" data-cap="Misty morning at Ba Na Hills" data-sub="Ba Na Hills · On tour"><img src="assets/photos/e9c00675-0682-4351-846b-56bc52afd1fc.jpg" alt="Misty morning at Ba Na Hills" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="bana" data-cap="Golden Bridge group selfie" data-sub="Ba Na Hills · Golden Bridge"><img src="assets/photos/f16f4534-66f7-4074-87bf-a37d2e768b83.jpg" alt="Golden Bridge group selfie" loading="lazy" /></button>
+<button class="gitem" type="button" data-cat="posters" data-cap="Thank You for choosing HiGo" data-sub="HiGo Travel · Da Nang poster"><img src="assets/photos/65886e9e-cd38-4b40-93ba-d4c76fb5ebb9.jpg" alt="Thank You for Choosing HiGo Travel Da Nang poster with a happy guest group" loading="lazy" /><figcaption><b>Thank You, HiGo guests</b><span>Poster</span></figcaption></button>
+            <button class="gitem" type="button" data-cat="posters" data-cap="Explore Vietnam with a Local Expert" data-sub="HiGo Travel · Poster"><img src="assets/photos/b75413bf-5e50-4626-a00f-4db0e1fb1c2e.jpg" alt="Explore Vietnam with a Local Expert poster showing Hoi An streets" loading="lazy" /><figcaption><b>Explore with a Local Expert</b><span>Poster</span></figcaption></button>
+          </div>
+          <p class="hint" id="galCount" aria-live="polite" style="margin-top:14px"></p>
+        </div>
+      </section>
+<div class="lb" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+        <button class="lb-btn lb-close" type="button" id="lbClose" aria-label="Close photo viewer">×</button>
+        <button class="lb-btn lb-prev" type="button" id="lbPrev" aria-label="Previous photo">‹</button>
+        <img id="lbImg" alt="" />
+        <button class="lb-btn lb-next" type="button" id="lbNext" aria-label="Next photo">›</button>
+        <div class="lb-cap"><b id="lbCap"></b><span id="lbSub"></span><div class="lb-count" id="lbCount"></div></div>
+      </div>
+    </main>
+<footer>
+      <div class="wrap">
+        <div class="row">
+          <img data-img="logo" width="58" height="48" alt="HiGo Travel logo" />
+          <p class="t"><strong>HiGo Travel</strong> · Vietnam, Da Nang<br /><a href="https://wa.me/971569436781" target="_blank" rel="noopener">WhatsApp: +971 56 943 6781</a></p>
+        </div>
+        <p class="foot-slogan">More Than a Trip, It's a Feeling of Home.</p>
+        <details class="fold" style="margin-top:14px">
+          <summary data-i18n="contactTitle">Fine print</summary>
+          <div class="body fine">
+            <p>Prices are in USD. Christmas Promo prices: Buy 1 Take 1 at $250 for 2 pax (3 days, 2 nights) and the family deal at $450 for 4 pax. The regular price for the same 3 days and 2 nights is $280 for 2 pax. Regular and extended stays for 2 pax build on that regular price: $280 for 3 days and 2 nights, $310 for 4 days and 3 nights, $340 for 5 days and 4 nights, and $370 for 6 days and 5 nights, at +$30 per extra night over the regular stay. The main tour includes Ba Na Hills and Hoi An. The Hue tour is optional, and custom itineraries are available at an additional cost. All bookings are subject to availability and confirmed directly with HiGo Travel on WhatsApp. The ProviaMed gift voucher is worth $300 USD, valid for travel December 2026 to February 2027, non-refundable and non-exchangeable for cash. Trip photos on this page were shared by HiGo Travel guests from real trips in Da Nang and Hoi An.</p>
+          </div>
+        </details>
+      </div>
+    </footer>
+<a class="wa-float" id="wa-float" href="https://wa.me/971569436781?text=Hi%20HiGo%20Travel!%20I%20want%20to%20ask%20about%20a%20trip." target="_blank" rel="noopener" aria-label="Chat with HiGo Travel on WhatsApp. Drag to move this button." title="WhatsApp HiGo Travel · drag to move">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5A9.4 9.4 0 0 0 3.9 16.6L2.6 21.5l5-1.3A9.5 9.5 0 1 0 12 2.5zm4.2 11.4c-.2-.1-1.4-.7-1.6-.7-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.3 6.3 0 0 1-3.1-2.7c-.2-.4.2-.4.6-1.2a.5.5 0 0 0 0-.5c-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 5 5 0 0 0 1 2.7 11.6 11.6 0 0 0 4.5 4 15 15 0 0 0 1.5.5 3.6 3.6 0 0 0 1.7.1 2.7 2.7 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></svg>
+    </a>
+<nav class="nav" aria-label="Pages">
+      <button type="button" data-tab="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10.5 9-7 9 7"/><path d="M5 9.5V21h14V9.5"/><path d="M9.5 21v-6h5v6"/></svg><span data-i18n="tabHome">Home</span></button>
+      <button type="button" data-tab="deals"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.3" fill="currentColor" stroke="none"/></svg><span data-i18n="tabDeals">Deals</span></button>
+      <button type="button" data-tab="tour"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg><span data-i18n="tabTour">Tour</span></button>
+      <button type="button" data-tab="gallery"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="9" cy="10" r="1.6"/><path d="m4.5 17.5 4.5-4 3.5 3 3-2.5 4 3.5"/></svg><span data-i18n="tabGallery">Photos</span></button>
+      <button type="button" data-tab="reviews"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg><span data-i18n="tabReviews">Reviews</span></button>
+      <button type="button" data-tab="book" class="book"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2.4"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="m9 15.5 2.2 2.2 4-4.2"/></svg></span><span data-i18n="tabBook">Book</span></button>
+    </nav>
+    <script>window.HIGO_PAGE = 'gallery';</script>
+    <script src="assets/js/site.js"></script>
+    <script src="assets/js/ui.js"></script>
+  </body>
+</html>
